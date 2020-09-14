@@ -12,6 +12,8 @@
 spinlock based semaphore in go
 this package is still experimental. use at your own risk.
 
+this package implements a binary semphore, using spinlock and a counting semaphore using go channels. It is based on analyzing various go opensource libraries, listed in `doc.go`.
+
 ## benchmarks
 
 - benchmark results (go version `go1.15 linux/amd64`)
