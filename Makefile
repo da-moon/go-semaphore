@@ -37,4 +37,4 @@ release-patch:
 	- git checkout master
 	- git pull
 	- git tag -a v$(PATCHVERSION) -m 'release $(PATCHVERSION)'
-	# - git push origin --tags
+	- git push origin --tags
